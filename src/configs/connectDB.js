@@ -5,7 +5,7 @@ const sequelize = new Sequelize("booking_care_db", "root", "123123", {
     host: "localhost",
     dialect: "mysql",
     port: "3308",
-    logging: false
+    logging: false,
 });
 
 let connectDB = async () => {
